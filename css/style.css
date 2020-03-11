@@ -421,13 +421,13 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: linear-gradient(rgba(50,50,50,0.8),rgba(10,10,10,0.8),rgba(100,100,100,0.8));
   padding-top: 190px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #fff;
 }
 
 #about .div-img-bg .about-img img {
@@ -457,7 +457,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: linear-gradient(to right,
+  rgba(24, 0, 160,0.7),
+  rgba(145, 6, 226, 0.7));
   position: relative;
   padding-bottom: 80px;
 }
@@ -469,7 +471,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #fff;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -484,7 +486,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #a115e2;
   line-height: 44px;
 }
 
@@ -506,12 +508,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #ddd;
+  background-color: rgb(65, 3, 107);
   cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #a720c8;
 }
 
 .owl-nav {
