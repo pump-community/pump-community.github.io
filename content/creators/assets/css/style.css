@@ -26,12 +26,12 @@
 --------------------------------------------------------------*/
 body {
    font-family: 'Viga', sans-serif;
-   background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../img/background.jpg");
+   background: linear-gradient(rgba(0,0,0,0.2), rgba(34, 9, 1, 0.876)), url("../img/background.jpg");
   color: #fff;
 }
 
 a {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
 }
 
 a:hover {
@@ -54,8 +54,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: rgba(187, 0, 207, 0.849);
-  color: #fff;
+  background: rgb(204, 41, 54);
+  color: rgba(253, 231, 76, 1);
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -68,8 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #db528c;
+  color: rgb(204, 41, 54);
+  background: rgba(253, 231, 76, 1);
   transition: background 0.2s ease-in-out;
 }
 
@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 10px 0;
   background: linear-gradient(to left,
-    rgba(24, 0, 160,1),
-    rgba(145, 6, 226, 1));
+  rgba(255, 144, 0, 1),
+  rgba(204, 41, 54, 1));
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(207, 76, 0, 0.849);
   text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(207, 14, 0, 0.849);
 }
 
 .nav-menu .drop-down > a:after {
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgb(255, 251, 35);
 }
 
 .mobile-nav {
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
   text-decoration: none;
 }
 
@@ -331,8 +331,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: linear-gradient(to left,
-  rgba(24, 0, 160,0.7),
-  rgba(145, 6, 226, 0.7));
+  rgba(255, 144, 0, 0.8),
+  rgba(204, 41, 54, 0.8));
   backdrop-filter: blur(2px);
   background-size: cover;
   padding: 0 15px;
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
 }
 
 @media (min-width: 1024px) {
@@ -392,7 +392,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(180deg, #00256ba1 0%, rgba(66, 0, 128, 0.657) 100%);
+  background: linear-gradient(180deg, #000a1d85 0%, rgba(68, 28, 1, 0.739) 100%);
 }
 
 .section-title {
@@ -414,7 +414,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   bottom: 0;
   left: 0;
 }
@@ -448,7 +448,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #a61dc9;
+  color: rgb(241, 32, 49);
   float: left;
 }
 
@@ -530,14 +530,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #fbeaf1;
+  background: rgba(255, 144, 0, 1);
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: rgba(187, 0, 207, 0.849);
+  background-color: rgba(204,41,54, 0.849);
 }
 
 /*--------------------------------------------------------------
@@ -555,7 +555,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(187, 0, 207, 0.849);
+  border-left: 2px solid rgba(204, 41, 54, 1);
   position: relative;
 }
 
@@ -563,13 +563,13 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  color: #fff;
+  color:  rgba(204, 41, 54, 1);
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgba(187, 0, 207, 0.849);
+  background: rgb(255, 115, 1);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 400;
@@ -597,8 +597,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid rgba(187, 0, 207, 0.849);
+  background: rgba(253, 231, 76, 1);
+  border: 2px solid rgba(204, 41, 54, 1);
 }
 
 /*--------------------------------------------------------------
@@ -628,7 +628,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   height: 100%;
   border-radius: 0px;
 }
@@ -641,7 +641,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   transition: all 0.3s ease-in-out;
 }
 
@@ -676,7 +676,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
 }
 
 @media (max-width: 768px) {
@@ -712,14 +712,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: rgba(66, 0, 128, 0.657);
+  color: rgba(253, 231, 76, 0.657);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204, 41, 54, 0.849);
   border-radius: 30px;
 }
 
@@ -738,7 +738,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -794,7 +794,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: rgba(66, 0, 128, 0.883);
+  color: rgba(253, 231, 76, 0.8);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -891,7 +891,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: rgba(187, 0, 207, 0.849) !important;
+  background-color: rgba(204,41,54, 0.849) !important;
 }
 
 @media (max-width: 767px) {
@@ -911,7 +911,7 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
 }
 
 .contact .contact-about p {
@@ -929,7 +929,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -938,11 +938,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid rgba(187, 0, 207, 0.849);
+  border: 1px solid rgba(204,41,54, 0.849);
 }
 
 .contact .social-links a:hover {
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   color: #fff;
 }
 
@@ -952,7 +952,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: rgba(187, 0, 207, 0.849);
+  color: rgba(204,41,54, 0.849);
   float: left;
   line-height: 1;
 }
@@ -1016,11 +1016,11 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: rgba(187, 0, 207, 0.849);
+  border-color: rgba(204,41,54, 0.849);
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: rgba(187, 0, 207, 0.849);
+  background: rgba(204,41,54, 0.849);
   border: 0;
   padding: 10px 24px;
   color: #fff;
