@@ -39,6 +39,15 @@ a:hover {
   text-decoration: none;
 }
 
+.hero a{
+  color: #fff;
+}
+
+.hero a:hover {
+  color: #ffe600;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Viga', sans-serif; 
 }
