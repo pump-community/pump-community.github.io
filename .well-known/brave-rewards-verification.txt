@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: pump-community.github.io
-Token: 33534ca14f08715fed099f74f57afcf71f77c50ed12f31e1e264f653f953bfaa
