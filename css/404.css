@@ -190,25 +190,6 @@ body a:hover,body a{
 	opacity: 1;
   }
 
-/* .more_w3ls a{
-	padding: 8px 70px;
-    background: rgba(145, 6, 226, 0.8);
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1em;
-    text-transform: uppercase;
-	transition:.25s ease-in;
-	-webkit-transition:.25s ease-in;
-	-moz-transition:.25s ease-in;
-	-o-transition:.25s ease-in;
-	-ms-transition:.25s ease-in;
-}
-.more_w3ls a:hover{
-	background:rgba(11, 0, 160, 0.8);
-	color:#FFF;
-} */
-
-
 .wthree_social_icons{
 	position:relative;
 }

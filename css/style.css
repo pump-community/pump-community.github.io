@@ -1,3 +1,19 @@
+@font-face {
+	font-family: 'Viga';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Viga-Regular'), url(xMQbuFFdSaiXzQspDre2.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Viga';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Viga-Regular'), url(xMQbuFFdSaiXzQUpDg.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 /*
   Theme Name: Folio
   Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -13,6 +29,8 @@
 }
 
 .content-creator .img {
+  /* height: 256px;
+  width: 256px; */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -28,6 +46,7 @@
 }
 .content-creator .text {
   /* font-family: 'Open Sans'; */
+  font-family: 'Viga', sans-serif;
   padding-top: 5px;
   display: block;
   text-align: center;
@@ -72,7 +91,8 @@ body {
   color: #fff;
   background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../images/background.jpg");
   /* backdrop-filter: blur(1px) brightness(80%); */
-  font-family: 'Poppins', helvetica;
+  /* font-family: 'Poppins', helvetica; */
+  font-family: 'Viga', sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -185,6 +205,7 @@ p {
 }
 
 .section-title h2 {
+  color: white;
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -261,7 +282,8 @@ nav ul li {
 
   float: left;
   margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Viga', sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -272,7 +294,8 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #fff;
-  font-family: 'Poppins', helvetica;
+  /* font-family: 'Poppins', helvetica;*/
+  font-family: 'Viga', sans-serif;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -398,13 +421,12 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: linear-gradient(rgba(50,50,50,0.8),rgba(10,10,10,0.8),rgba(100,100,100,0.8));
   padding-top: 190px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
 }
 
 #about .div-img-bg .about-img img {
@@ -417,7 +439,8 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Viga', sans-serif;
   font-size: 28px;
   text-align: left;
 }
@@ -433,7 +456,9 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: linear-gradient(to right,
+  rgba(24, 0, 160,0.7),
+  rgba(145, 6, 226, 0.7));
   position: relative;
   padding-bottom: 80px;
 }
@@ -445,7 +470,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #fff;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -460,7 +485,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #a115e2;
   line-height: 44px;
 }
 
@@ -482,12 +507,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #ddd;
+  background-color: rgb(65, 3, 107);
   cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #a720c8;
 }
 
 .owl-nav {
@@ -520,7 +545,8 @@ nav ul li a {
   color: #999999;
   line-height: 16px;
   cursor: pointer;
-  font-family: 'Poppins', helvetica;
+  /* font-family: 'Poppins', helvetica; */
+  font-family: 'Viga', sans-serif;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -682,7 +708,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: linear-gradient(rgba(54, 54, 54, 0.6),rgba(0,0,0,0.8),rgba(54, 54, 54, 1));
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -718,7 +744,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: rgb(179, 46, 255);
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
