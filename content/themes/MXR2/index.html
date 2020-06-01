@@ -40,6 +40,12 @@
     function donate300() {
       window.open("https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=189443492-7938937b-156f-4f8b-911a-04700c38f519", "Donar", "width=650,height=550", "toolbar=0,location=0");
     }
+    function donateMXN() {
+      window.open("https://www.paypal.com/donate/?token=LV4pDM2YIg9NCqA5NwLigWhoSaEQz0XlHST2ty34EyU8LA-npCTY3GHy9Zjx2DqIl3Zi7G&country.x=MX&locale.x=MX", "Donar", "width=650,height=550", "toolbar=0,location=0");
+    }
+    function donateUSD() {
+      window.open("https://www.paypal.com/donate/?token=KhjxQI3SqwQWrIPtjPTnEhcK7NP1MrZc-PIstMpfBTagP-Fd3LYPRoMjj68hE33_AG7enG&country.x=MX&locale.x=MX", "Donar", "width=650,height=550", "toolbar=0,location=0");
+    }
   </script>
 
 </head>
@@ -344,6 +350,34 @@
             manteniendo los servidores en linea para todos</p>
         </div>
         <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>PayPal Mexico</h3>
+              <h4><span>Si prefieres PayPal esta es tu opcion</span></h4>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Mantienes el servidor en linea</li>
+                <li><i class="ion-android-checkmark-circle"></i> Apoyas al creador</li>
+                <li><i class="ion-android-checkmark-circle"></i> Te vuelves Pro</li>
+                <li><i class="ion-android-checkmark-circle"></i> Pequeños beneficios personales</li>
+              </ul>
+              <a href="#download" onclick="donateMXN()" class="get-started-btn scrollto">A donar! <i
+                  class="fab fa-paypal"></i></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>PayPal World Wide</h3>
+              <span>If you want to make us a donation, but you aren't from Mexico, try this link</span>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> You keep the server online.</li>
+                <li><i class="ion-android-checkmark-circle"></i> You support the creator.</li>
+                <li><i class="ion-android-checkmark-circle"></i> You become Pro.</li>
+                <li><i class="ion-android-checkmark-circle"></i> Small personal benefits.</li>
+              </ul>
+              <a href="#download" onclick="donateUSD()" class="get-started-btn scrollto">Let's do it! <i
+                  class="fab fa-paypal"></i></i></a>
+            </div>
+          </div>
           <div class="col-lg-6 col-md-6">
             <div class="box featured wow fadeInLeft">
               <h3>Easy</h3>
