@@ -29,6 +29,10 @@ body {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 #snow{
@@ -36,7 +40,6 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  z-index: 2;
   
 }
 
