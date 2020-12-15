@@ -31,15 +31,24 @@ body {
   overflow-x: hidden;
 }
 
+#snow{
+  background-color: transparent;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  
+}
+
 a {
-  color: #3d0e74;
+  color: #207e8f;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #4c0c95;
+  color: #0c4395;
   outline: none;
   text-decoration: none;
 }
@@ -66,7 +75,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #3e3744, #3c0b74);
+  background: linear-gradient(45deg, #2c3a4d, #0c4395);
   color: #fff;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
@@ -77,13 +86,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #3e3744, #3d0e74);
+  background: linear-gradient(45deg, #3e3744, #207e8f);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #3d0e74;
+  background: #207e8f;
   color: #fff;
 }
 
@@ -129,7 +138,7 @@ h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #3b1b52, #310366d8);
+  background: linear-gradient(45deg, #207e8f, #036285e9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -142,13 +151,14 @@ h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, #110d13d2, #310366d8), center top no-repeat;
+  background: linear-gradient(45deg, #0d0d13d2, #034c66d8), center top no-repeat;
   background-size: cover;
   position: relative;
 }
 
 #myVideo {
   position: absolute;
+  
   min-width: 100%;
   min-height: 100vh;
   right: 0;
@@ -216,7 +226,7 @@ h6 {
 }
 
 #intro .btn-get-started:hover {
-  color: #3d0e74;
+  color: #207e8f;
   background: #fff;
 }
 
@@ -367,7 +377,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #3d0e74;
+  color: #207e8f;
 }
 
 .nav-menu ul ul {
@@ -450,11 +460,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #3d0e74;
+  color: #207e8f;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #3d0e74;
+  color: #207e8f;
 }
 
 #mobile-body-overly {
@@ -507,8 +517,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 60px;
   height: 3px;
-  background: #3d0e74;
-  background: linear-gradient(0deg, #3d0e74 0%, #7925d8 100%);
+  background: #207e8f;
+  background: linear-gradient(0deg, #207e8f 0%, #0c4395 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -565,7 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #6e06e6;
+  color: #0c4395;
 }
 
 #about .content ul {
@@ -581,7 +591,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #features {
-  background: #101;
+  background: rgb(1, 0, 17);
   padding: 60px 0 0 0;
   overflow: hidden;
 }
@@ -605,14 +615,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .icon i {
-  color: #6205cc;
+  color: #0c4395;
   font-size: 40px;
   transition: 0.5s;
 }
 
 #features .icon i:before {
-  background: #6205cc;
-  background: linear-gradient(45deg, #5f03c8df , #8624f5 100%);
+  background: #0c4395;
+  background: linear-gradient(45deg, #0383c8df , #2443f5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -682,8 +692,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features i:before {
-  background: #5c0fb4;
-  background: linear-gradient(45deg, #5e0fb9 0%, #7700ff 100%);
+  background: #0f49b4;
+  background: linear-gradient(45deg, #200fb9 0%, #0099ff 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -706,7 +716,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #download {
   overflow: hidden;
-  background: linear-gradient( #7825d85b, #3e0e7471), url(../img/call-to-action-bg.png) fixed center center;
+  background: linear-gradient( #2531d85b, #0e487471), url(../img/call-to-action-bg.png) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -736,8 +746,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #download .cta-btn:hover {
-  background: #3d0e74;
-  border: 2px solid #3d0e74;
+  background: #207e8f;
+  border: 2px solid #207e8f;
 }
 
 /* More Features Section
@@ -770,8 +780,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features .icon i:before {
-  background: #3d0e74;
-  background: linear-gradient(45deg, #6301d3 0%, #8b2df6 100%);
+  background: #207e8f;
+  background: linear-gradient(45deg, #012bd3 0%, #2dc0f6 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -842,7 +852,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #pricing h4 {
   font-size: 46px;
-  color: #6a04dfdf;
+  color: #0451dfdf;
   font-weight: 300;
 }
 
@@ -869,13 +879,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing ul i {
-  color: #7500fae5;
+  color: #0079fae5;
   font-size: 18px;
   padding-right: 4px;
 }
 
 #pricing .get-started-btn {
-  background: #483068;
+  background: #333068;
   display: inline-block;
   padding: 6px 30px;
   border-radius: 20px;
@@ -887,11 +897,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing .featured {
-  border: 2px solid #3d0e74;
+  border: 2px solid #207e8f;
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #3e3744, #3d0e74);
+  background: linear-gradient(45deg, #092c85, #207e8f);
 }
 
 /* Frequently Asked Questions Section
@@ -941,7 +951,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #3d0e74;
+  color: #207e8f;
 }
 
 #faq #faq-list a.collapsed {
@@ -997,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #3d0e74;
+  color: #207e8f;
 }
 
 #team .member .social i {
@@ -1071,7 +1081,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #6e06e6;
+  color: #0c4395;
 }
 
 #contact .contact-about p {
@@ -1089,7 +1099,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3d0e74;
+  color: #207e8f;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1098,11 +1108,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3d0e74;
+  border: 1px solid #207e8f;
 }
 
 #contact .social-links a:hover {
-  background: #3d0e74;
+  background: #207e8f;
   color: #fff;
 }
 
@@ -1112,7 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #3d0e74;
+  color: #207e8f;
   float: left;
   line-height: 1;
 }
@@ -1124,8 +1134,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #3d0e74;
-  border: 1px solid #3d0e74;
+  color: #207e8f;
+  border: 1px solid #207e8f;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1165,7 +1175,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #3e3744, #3d0e74);
+  background: linear-gradient(45deg, #3e3744, #207e8f);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
